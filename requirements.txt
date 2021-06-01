@@ -1,6 +1,3 @@
-csv
-yaml
-urllib
 numpy
 pandas
 ipywidgets
