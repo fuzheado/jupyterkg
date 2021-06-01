@@ -2,3 +2,4 @@ pyyaml
 numpy
 pandas
 ipywidgets
+voila
