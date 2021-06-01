@@ -1,9 +1,9 @@
-"""Support functions for creating Wikidata Knowledge Graphs in Jupyter Widgets
+"""
+Support functions for creating Wikidata Knowledge Graphs in Jupyter Widgets
 """
 
 import csv 
 import re
-
 
 def sparql_qidlist_to_values_string(inlist: list) -> str:
     """
