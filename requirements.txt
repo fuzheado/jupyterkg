@@ -1,3 +1,4 @@
+yaml
 numpy
 pandas
 ipywidgets
