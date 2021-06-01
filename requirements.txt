@@ -1,4 +1,6 @@
+csv
+yaml
+urllib
 numpy
 pandas
 ipywidgets
-requests-cache
