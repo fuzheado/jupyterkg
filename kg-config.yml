@@ -4,7 +4,11 @@
 # For each P number, you should have a csv file of that name for pre-loaded content
 # Example: kg-P195.csv 
 
-dropdown_options:
+general:
+- csv_template: 'kg-{}.csv'
+- num_panels: 3
+
+dropdown:
 - '-'
 - instance of (P31)
 - collection/institution (P195)

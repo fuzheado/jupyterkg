@@ -1,0 +1,26 @@
+---
+# Template for crafting SPARQL queries for jupyterkg
+sparql:
+  top: |
+    #Knowledge Graph code generated from wikidata-kg
+    #defaultView:Graph
+    SELECT ?item1 ?image1 ?item1Label ?item2 ?image2 ?item2Label ?size ?rgb 
+    WHERE 
+    {
+  union: | 
+    { # Cluster facet%s
+      VALUES ?rgb { "fff033" }  # Color definition
+      VALUES ?size { 1 }
+      # Filters
+    %s
+      # Cluster
+    %s
+      OPTIONAL { ?item1 wdt:P18 ?image1. }
+    }
+  bottom: |
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }
+  values:  "  VALUES ?facet%s { %s }  # %s\n"
+  filter:  "  ?item1 wdt:%s ?facet%s .\n"
+  cluster: "  ?item1 wdt:%s ?item2 .\n"
+  any:     "  ?item1 wdt:%s [] .\n"
