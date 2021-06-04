@@ -10,6 +10,8 @@ The prototype is designed around show depicted content from arists in particular
 
 * Main execution module: kg-browser-modular.ipynb
 
+![](https://github.com/fuzheado/jupyterkg/blob/main/jupyterkg-screenshot.png)
+
 ## Background
 The idea for creating this tool was initially inspired by this post by Martin Poulter, Wikimedian In Residence at Oxford University. 
 http://blogs.bodleian.ox.ac.uk/digital/2019/01/23/making-wikidata-visible/
