@@ -6,7 +6,7 @@ knowledge graphs without needing to know anything about the SPARQL
 query language. By selecting items from a list, you can generate knowledge
 graphs from the Wikidata Query SPARQL endpoint.
 
-The prototype is designed around show depicted content from arists in particular collections, but this is a generic system that can used to assemble any type of query.
+The prototype is designed around show depicted content from artists in particular collections, but this is a generic system that can used to assemble any type of query.
 
 * Main execution module: kg-browser-modular.ipynb
 
