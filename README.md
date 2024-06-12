@@ -44,4 +44,4 @@ account. Link: https://paws.wmcloud.org/
   * https://hub.paws.wmcloud.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Ffuzheado%2Fjupyterkg&urlpath=tree%2Fjupyterkg%2Fkg-browser-modular.ipynb&branch=main
 
 * You can start the graphical user interface immediately like a web app, with this Voila link:
-  * https://hub.paws.wmcloud.org/user/user-redirect/voila/render/jupyterkg/kg-browser-modular.ipynb
+  * https://hub-paws.wmcloud.org/user/user-redirect/voila/render/jupyterkg/kg-browser-modular.ipynb
